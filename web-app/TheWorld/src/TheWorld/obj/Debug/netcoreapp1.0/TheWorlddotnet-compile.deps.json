@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "c56ccaa228ec3b3cbeb624cc76d2ef35ce357fc8"
+    "signature": "35fdb1a045c6101f7353b8cef9ba1c5fbcbcd535"
   },
   "compilationOptions": {
     "defines": [
@@ -18,7 +18,8 @@
         "dependencies": {
           "Microsoft.NETCore.App": "1.0.0-rc2-3002702",
           "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0-rc2-final",
-          "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-final"
+          "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-final",
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0-rc2-final"
         },
         "compile": {
           "TheWorld.dll": {}
@@ -174,6 +175,18 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.AspNetCore.Server.Kestrel.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.StaticFiles/1.0.0-rc2-final": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.AspNetCore.Http.Extensions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.FileProviders.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.WebEncoders": "1.0.0-rc2-final"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.StaticFiles.dll": {}
         }
       },
       "Microsoft.AspNetCore.WebUtilities/1.0.0-rc2-final": {
@@ -432,6 +445,16 @@
         },
         "compile": {
           "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Extensions.WebEncoders/1.0.0-rc2-final": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.Options": "1.0.0-rc2-final",
+          "System.Text.Encodings.Web": "4.0.0-rc2-24027"
+        },
+        "compile": {
+          "lib/netstandard1.0/Microsoft.Extensions.WebEncoders.dll": {}
         }
       },
       "Microsoft.Net.Http.Headers/1.0.0-rc2-final": {
@@ -1822,7 +1845,8 @@
         "dependencies": {
           "Microsoft.NETCore.App": "1.0.0-rc2-3002702",
           "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0-rc2-final",
-          "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-final"
+          "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-final",
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0-rc2-final"
         },
         "runtime": {
           "TheWorld.dll": {}
@@ -1978,6 +2002,18 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.AspNetCore.Server.Kestrel.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.StaticFiles/1.0.0-rc2-final": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.AspNetCore.Http.Extensions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.FileProviders.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.WebEncoders": "1.0.0-rc2-final"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.StaticFiles.dll": {}
         }
       },
       "Microsoft.AspNetCore.WebUtilities/1.0.0-rc2-final": {
@@ -2233,6 +2269,16 @@
         },
         "runtime": {
           "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Extensions.WebEncoders/1.0.0-rc2-final": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc2-final",
+          "Microsoft.Extensions.Options": "1.0.0-rc2-final",
+          "System.Text.Encodings.Web": "4.0.0-rc2-24027"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.WebEncoders.dll": {}
         }
       },
       "Microsoft.Net.Http.Headers/1.0.0-rc2-final": {
@@ -3520,6 +3566,11 @@
       "serviceable": true,
       "sha512": "sha512-ojeLfBZ+H7uVImuzqErcNv8hN8Z8+k99jSl2U+cwEMddJXnzqjND20NlwNW/g4/3roLB3F3+6kYTy3wWMYFQCg=="
     },
+    "Microsoft.AspNetCore.StaticFiles/1.0.0-rc2-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MOv6HHX1C/62ljMsl/MK9hlG+f/9k3+kR6CHHaf2gqTXMb3qOf3gfthiTQIESTh66JxC7ZcFVCKdNKuodlXsgA=="
+    },
     "Microsoft.AspNetCore.WebUtilities/1.0.0-rc2-final": {
       "type": "package",
       "serviceable": true,
@@ -3614,6 +3665,11 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-5lXETW9MI0CIOOCtgeJcrX3jODcFkX04tr+K/MB+cRspPvYD3URbf4MRIwWgI5r7cu+8+efPxEH0tG1g8ldhQA=="
+    },
+    "Microsoft.Extensions.WebEncoders/1.0.0-rc2-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OCXr7Y9u/tmKhmNMJqbAlMcUQxtpzJvZ1Jvs8LJoSyCCFVmZlwZ8c6k7ileYpW2jvxGGOQ6N64V184HY2uQPHg=="
     },
     "Microsoft.Net.Http.Headers/1.0.0-rc2-final": {
       "type": "package",

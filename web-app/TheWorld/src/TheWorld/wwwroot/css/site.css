@@ -17,7 +17,20 @@ input[type=text], input[type=password], textarea {
 
 #wrapper {
     margin: 0 0 0 250px;
+    -moz-transition: margin-left ease .25s;
+    -o-transition: margin-left ease .25s;
+    -webkit-transition: margin-left ease .25s;
+    transition: margin-left ease .25s;
 }
+
+    #wrapper.hide-sidebar {
+        margin-left: 0;
+        -moz-transition: margin-left ease .25s;
+        -o-transition: margin-left ease .25s;
+        -webkit-transition: margin-left ease .25s;
+        transition: margin-left ease .25s;
+    }
+
 #main {
     background-color: #eee;
     padding: 4px;
@@ -26,18 +39,30 @@ input[type=text], input[type=password], textarea {
 
 #sidebar {
     background: #2a2c36;
-    color:#eee;
+    color: #eee;
     position: fixed;
     height: 100%;
     width: 250px;
     overflow: hidden;
     left: 0;
     margin: 0;
+    -moz-transition: left ease .25s;
+    -o-transition: left ease .25s;
+    -webkit-transition: left ease .25s;
+    transition: left ease .25s;
 }
+
+    #sidebar.hide-sidebar {
+        left: -250px;
+        -moz-transition: left ease .25s;
+        -o-transition: left ease .25s;
+        -webkit-transition: left ease .25s;
+        transition: left ease .25s;
+    }
 
 #footer {
     background-color: #222;
-    color:#eee;
+    color: #eee;
     padding: 8px 5px;
     position: fixed;
     bottom: 0;
@@ -54,10 +79,10 @@ input[type=text], input[type=password], textarea {
     font-size: 12px;
 }
 
-.menu li {
-    list-style-type: none;
-}
+    .menu li {
+        list-style-type: none;
+    }
 
-.menu li.active {
-    font-weight: bold;
-}
+        .menu li.active {
+            font-weight: bold;
+        }

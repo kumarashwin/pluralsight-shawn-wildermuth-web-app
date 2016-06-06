@@ -25,7 +25,7 @@
             </div>
 
             <div>
-                @RenderBody();
+                @RenderBody()
             </div>
 
         </div>
@@ -36,6 +36,8 @@
 
     <script type="text/javascript" src="~/lib/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="~/js/site.js"></script>
+
+    @RenderSection("Scripts", false)
 
 </body>
 </html>

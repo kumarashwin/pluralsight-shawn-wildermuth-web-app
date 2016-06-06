@@ -59,6 +59,9 @@
 --reference:C:\Users\Ash\.nuget\packages\Microsoft.Extensions.Caching.Memory\1.0.0-rc2-final\lib\netstandard1.3\Microsoft.Extensions.Caching.Memory.dll
 --reference:C:\Users\Ash\.nuget\packages\Microsoft.Extensions.Configuration\1.0.0-rc2-final\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll
 --reference:C:\Users\Ash\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\1.0.0-rc2-final\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll
+--reference:C:\Users\Ash\.nuget\packages\Microsoft.Extensions.Configuration.EnvironmentVariables\1.0.0-rc2-final\lib\netstandard1.3\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+--reference:C:\Users\Ash\.nuget\packages\Microsoft.Extensions.Configuration.FileExtensions\1.0.0-rc2-final\lib\netstandard1.3\Microsoft.Extensions.Configuration.FileExtensions.dll
+--reference:C:\Users\Ash\.nuget\packages\Microsoft.Extensions.Configuration.Json\1.0.0-rc2-final\lib\netstandard1.3\Microsoft.Extensions.Configuration.Json.dll
 --reference:C:\Users\Ash\.nuget\packages\Microsoft.Extensions.DependencyInjection\1.0.0-rc2-final\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll
 --reference:C:\Users\Ash\.nuget\packages\Microsoft.Extensions.DependencyInjection.Abstractions\1.0.0-rc2-final\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 --reference:C:\Users\Ash\.nuget\packages\Microsoft.Extensions.DependencyModel\1.0.0-rc2-final\lib\netstandard1.5\Microsoft.Extensions.DependencyModel.dll
@@ -166,3 +169,6 @@
 C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\Program.cs
 C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\Startup.cs
 C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\Controllers\Web\AppController.cs
+C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\Services\DebugMailService.cs
+C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\Services\IMailService.cs
+C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\ViewModels\ContactViewModel.cs

@@ -1,5 +1,5 @@
 ﻿/* site.css */
-body {
+/*body {
     font-family: sans-serif;
     font-size: 14px;
     margin: 0;
@@ -12,7 +12,7 @@ label {
 
 input[type=text], input[type=password], textarea {
     width: 150px;
-}
+}*/
 
 
 #wrapper {
@@ -31,11 +31,11 @@ input[type=text], input[type=password], textarea {
         transition: margin-left ease .25s;
     }
 
-#main {
+/*#main {
     background-color: #eee;
     padding: 4px;
     margin: 0;
-}
+}*/
 
 #sidebar {
     background: #2a2c36;
@@ -60,14 +60,14 @@ input[type=text], input[type=password], textarea {
         transition: left ease .25s;
     }
 
-#footer {
+/*#footer {
     background-color: #222;
     color: #eee;
     padding: 8px 5px;
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+}*/
 
 .paris {
     max-width: 50px;

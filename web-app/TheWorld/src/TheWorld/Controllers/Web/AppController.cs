@@ -11,7 +11,7 @@ namespace TheWorld.Controllers.Web
         private IMailService _mailService;
         private IWorldRepository _repository;
 
-        public AppController(IMailService service, WorldRepository repository)
+        public AppController(IMailService service, IWorldRepository repository)
         {
             _mailService = service;
             _repository = repository;

@@ -33,6 +33,8 @@ namespace TheWorld
                 .AddJsonOptions(option => option.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver());
             services.AddLogging();
             services.AddEntityFrameworkSqlServer().AddDbContext<WorldContext>();
+
+            services.AddScoped<CoordService>();
             services.AddTransient<WorldContextSeedData>();
             services.AddScoped<IWorldRepository, WorldRepository>();
             services.AddScoped<IMailService, DebugMailService>();

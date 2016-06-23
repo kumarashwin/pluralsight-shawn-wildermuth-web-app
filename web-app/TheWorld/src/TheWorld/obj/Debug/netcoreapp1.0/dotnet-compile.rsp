@@ -214,6 +214,8 @@ C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-w
 C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\Models\WorldContext.cs
 C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\Models\WorldContextSeedData.cs
 C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\Models\WorldRepository.cs
+C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\Services\CoordService.cs
+C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\Services\CoordServiceResult.cs
 C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\Services\DebugMailService.cs
 C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\Services\IMailService.cs
 C:\Users\Ash\Desktop\pluralsight\shawn wildermuth\pluralsight-shawn-wildermuth-web-app\web-app\TheWorld\src\TheWorld\ViewModels\ContactViewModel.cs
